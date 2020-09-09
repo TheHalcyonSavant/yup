@@ -1,5 +1,5 @@
 {
-  "name": "@deni-ths/yup",
+  "name": "yup-ie11",
   "version": "0.29.3",
   "description": "Dead simple Object schema validation",
   "main": "lib/index.js",
