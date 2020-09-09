@@ -1,5 +1,5 @@
 {
-  "name": "yup",
+  "name": "@deni-ths/yup",
   "version": "0.29.3",
   "description": "Dead simple Object schema validation",
   "main": "lib/index.js",
@@ -23,18 +23,10 @@
     "es",
     "lib"
   ],
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/jquense/yup.git"
-  },
   "author": {
     "name": "@monasticpanic Jason Quense"
   },
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/jquense/yup/issues"
-  },
-  "homepage": "https://github.com/jquense/yup",
   "release": {
     "conventionalCommits": true
   },
