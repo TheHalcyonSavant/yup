@@ -17,8 +17,7 @@
     "release": "rollout",
     "build": "yarn build:commonjs && yarn build:modules && yarn toc",
     "build:commonjs": "babel src --out-dir lib --delete-dir-on-start",
-    "build:modules": "babel src --out-dir es --delete-dir-on-start --env-name modules",
-    "prepublishOnly": "yarn build"
+    "build:modules": "babel src --out-dir es --delete-dir-on-start --env-name modules"
   },
   "files": [
     "es",

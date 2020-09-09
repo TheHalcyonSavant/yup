@@ -29,23 +29,3 @@ function addMethod(schemaType, name, fn) {
 }
 
 export { mixed, string, number, bool, boolean, date, object, array, ref, lazy, reach, isSchema, addMethod, setLocale, ValidationError };
-
-if (typeof window !== 'undefined') {
-  window.yup = {
-    mixed: mixed,
-    string: string,
-    number: number,
-    bool: bool,
-    boolean: boolean,
-    date: date,
-    object: object,
-    array: array,
-    ref: ref,
-    lazy: lazy,
-    reach: reach,
-    isSchema: isSchema,
-    addMethod: addMethod,
-    setLocale: setLocale,
-    ValidationError: ValidationError
-  };
-}
